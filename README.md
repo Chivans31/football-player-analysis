@@ -68,14 +68,17 @@ Model Comparison: Random Forest was compared with Linear Regression, SVR, and XG
 4. **Evaluation Metrics:**
 * **Mean Absolute Error (MAE):** Measures the average error magnitude.
 * **Root Mean Squared Error (RMSE):** Evaluates the error magnitude in squared units.
-* **R² Score:** Indicates the proportion of variance explained by the model.:
+* **R² Score:** Indicates the proportion of variance explained by the model.
 
-       | Model                     | MAE          | RMSE         | R² Score   |
-       |---------------------------|--------------|--------------|------------|
-       | **Random Forest**         | 826,014      | 2.89 m       | 0.99       |
-       | **Linear Regression**     | 2.49 m       | 4.63 m       | 0.98       |
-       | **SVR**                   | 26.89 m      | 35.16 m      | 0.0004     |
-       | **XGBoost**               | 881,753      | 3.41 m       | 0.99       |
+## Results
+### Model Comparison:
+
+| Model                     | MAE          | RMSE         | R² Score   |
+|---------------------------|--------------|--------------|------------|
+| **Random Forest**         | 826,014      | 2.89 m       | 0.99       |
+| **Linear Regression**     | 2.49 m       | 4.63 m       | 0.98       |
+| **SVR**                   | 26.89 m      | 35.16 m      | 0.0004     |
+| **XGBoost**               | 881,753      | 3.41 m       | 0.99       |
 
 
 Here is a visual representation of the errors from model comparison:
