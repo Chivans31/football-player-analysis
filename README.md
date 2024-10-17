@@ -1,7 +1,6 @@
 # Identification of Undervalued Football Players in Transfer Markets through NLP-Based News Analysis
 
 ## Table of Contents
-## Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [Dataset Description](#dataset-description)
