@@ -98,12 +98,12 @@ Here is a visual representation of the errors from model comparison:
 ## Limitations and Further Work
 
 ### Limitations:
-***Data Limitations:** The analysis is constrained by the availability of accurate and up-to-date market value data, and some missing or incomplete player transfer history information.
-***Model Generalization:** While Random Forest performed well, additional testing with diverse datasets is needed to ensure the model generalizes across leagues and regions.
+* Data Limitations: The analysis is constrained by the availability of accurate and up-to-date market value data, and some missing or incomplete player transfer history information.
+*Model Generalization: While Random Forest performed well, additional testing with diverse datasets is needed to ensure the model generalizes across leagues and regions.
 
 ## Suggestions for Further Work:
-***Expanded Dataset:** Adding more player features (e.g., performance stats, injuries) and a larger variety of news sources could improve model accuracy.
-***Time-Series Analysis:** Further research into time-series models could better capture market value fluctuations over time.
+* **Expanded Dataset:** Adding more player features (e.g., performance stats, injuries) and a larger variety of news sources could improve model accuracy.
+* **Time-Series Analysis:** Further research into time-series models could better capture market value fluctuations over time.
 
 ## Contributors
 * Chinenye Ekene Omejieke - Project Lead
