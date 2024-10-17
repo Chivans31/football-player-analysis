@@ -30,10 +30,13 @@ The system uses Random Forest Regression as the main predictive model and compar
 
 1. **Player Details:**
 Name, Age, Nationality, Position, Team, Contract Expiry, etc.
+
 2.**Market Value (mkt_val):**
 Market Value, Highest Market Value, Date, Last Change.
+
 3. **Transfer History (trans_hist):**
 From Club, To Club, Transfer Fee, Market Value, Date.
+
 4.**News Articles (news_feed & miao_feed):**
 Title, Content, Author, Date, and Category of football-related news articles.
 
@@ -62,9 +65,9 @@ The main model used is Random Forest Regression for predicting player market val
 Model Comparison: Random Forest was compared with Linear Regression, SVR, and XGBoost using metrics like MAE, RMSE, and R² Score.
 
 4. **Evaluation Metrics:**
-* Mean Absolute Error (MAE): Measures the average error magnitude.
-* Root Mean Squared Error (RMSE): Evaluates the error magnitude in squared units.
-* R² Score: Indicates the proportion of variance explained by the model.:
+* **Mean Absolute Error (MAE):** Measures the average error magnitude.
+* **Root Mean Squared Error (RMSE):** Evaluates the error magnitude in squared units.
+* **R² Score:** Indicates the proportion of variance explained by the model.:
 
 | Model                     | MAE          | RMSE         | R² Score   |
 |---------------------------|--------------|--------------|------------|
@@ -78,10 +81,10 @@ Here is a visual representation of the errors from model comparison:
 
 
 ## Key Findings:
-***Random Forest Regression** performed the best in predicting player market values with high accuracy, reflected in its low MAE and high R² score.
-***Linear Regression** performed decently but was less accurate compared to Random Forest.
-***SVR** struggled with the dataset, as shown by its very low R² score.
-***XGBoost** was a close competitor to Random Forest, with comparable performance but a slightly higher error.
+* **Random Forest Regression** performed the best in predicting player market values with high accuracy, reflected in its low MAE and high R² score.
+* **Linear Regression** performed decently but was less accurate compared to Random Forest.
+* **SVR** struggled with the dataset, as shown by its very low R² score.
+* **XGBoost** was a close competitor to Random Forest, with comparable performance but a slightly higher error.
 
 ## Usage
 
@@ -98,8 +101,8 @@ Here is a visual representation of the errors from model comparison:
 ## Limitations and Further Work
 
 ### Limitations:
-* Data Limitations: The analysis is constrained by the availability of accurate and up-to-date market value data, and some missing or incomplete player transfer history information.
-*Model Generalization: While Random Forest performed well, additional testing with diverse datasets is needed to ensure the model generalizes across leagues and regions.
+* **Data Limitations:** The analysis is constrained by the availability of accurate and up-to-date market value data, and some missing or incomplete player transfer history information.
+* **Model Generalization:** While Random Forest performed well, additional testing with diverse datasets is needed to ensure the model generalizes across leagues and regions.
 
 ## Suggestions for Further Work:
 * **Expanded Dataset:** Adding more player features (e.g., performance stats, injuries) and a larger variety of news sources could improve model accuracy.
