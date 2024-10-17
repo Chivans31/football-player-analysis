@@ -92,7 +92,7 @@ Here is a visual representation of the errors from model comparison:
 * **XGBoost** was a close competitor to Random Forest, with comparable performance but a slightly higher error.
 
 ## Results
-![Model Comparison](Results/Comparison%20of%20MAE%20for%20different%20Models.PNG)
+![Comparison_of_Actual_vs_Predicted_Market_Value](Plots/Comparison%20of%20Actual%20vs%20Predicted%20Marke%20Values.PNG)
 
 ## Usage
 
