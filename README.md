@@ -85,13 +85,15 @@ Here is a visual representation of the errors from model comparison:
 ![Model Comparison](Plots/Comparison%20of%20MAE%20for%20different%20Models.PNG)
 
 
-## Key Findings:
+##  Results
+
 * **Random Forest Regression** performed the best in predicting player market values with high accuracy, reflected in its low MAE and high R² score.
 * **Linear Regression** performed decently but was less accurate compared to Random Forest.
 * **SVR** struggled with the dataset, as shown by its very low R² score.
 * **XGBoost** was a close competitor to Random Forest, with comparable performance but a slightly higher error.
 
-## Results
+## Key Findings:
+
 ![Comparison_of_Actual_vs_Predicted_Market_Value](Plots/Comparison%20of%20Actual%20vs%20Predicted%20Marke%20Values.PNG)
 
 **Interpretation:** The visual comparison of the actual and predicted market values for a sample of players is represented with the bar plot above.
