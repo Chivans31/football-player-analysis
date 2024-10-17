@@ -98,10 +98,10 @@ Here is a visual representation of the errors from model comparison:
 
 **Interpretation:** The visual comparison of the actual and predicted market values for a sample of players is represented with the bar plot above.
 
-**Jude Bellingham:** With the predicted and actual values being approximately 177 million and 150 million respectively, Jude Bellington is considered the most undervalued player.
-**Rodri**, **Victor Osimhen** and **Declan Rice** have predicted values that are visibly higher than their actual values, although not as high as the predicted value of the most undervalued player.
-**Paul Pogba**, **Harry Kane** and **Marion Balotelli** have predicted values (15.1 million, 110.1 million and 1.26 million respectively) which are very close to the actual market values (15 million, 110 million and 1.2 million respectively) which indicates model reliability. 
-**Kelechi Iheanacho** appears to be the least undervalued with a predicted value of 1.64 million and actual value of 1.6 million, demonstrating the model’s ability to generalise well across different players.
+* **Jude Bellingham:** With the predicted and actual values being approximately 177 million and 150 million respectively, Jude Bellington is considered the most undervalued player.
+* **Rodri**, **Victor Osimhen** and **Declan Rice** have predicted values that are visibly higher than their actual values, although not as high as the predicted value of the most undervalued player.
+* **Paul Pogba**, **Harry Kane** and **Marion Balotelli** have predicted values (15.1 million, 110.1 million and 1.26 million respectively) which are very close to the actual market values (15 million, 110 million and 1.2 million respectively) which indicates model reliability. 
+* **Kelechi Iheanacho** appears to be the least undervalued with a predicted value of 1.64 million and actual value of 1.6 million, demonstrating the model’s ability to generalise well across different players.
 
 ## Feature Importance
 ![Feature Importance](Plots/Feature%20Importance.PNG)
