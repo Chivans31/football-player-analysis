@@ -33,13 +33,13 @@ The system uses Random Forest Regression as the main predictive model and compar
 1. **Player Details:**
 Name, Age, Nationality, Position, Team, Contract Expiry, etc.
 
-2.**Market Value (mkt_val):**
+2. **Market Value (mkt_val):**
 Market Value, Highest Market Value, Date, Last Change.
 
 3. **Transfer History (trans_hist):**
 From Club, To Club, Transfer Fee, Market Value, Date.
 
-4.**News Articles (news_feed & miao_feed):**
+4. **News Articles (news_feed & miao_feed):**
 Title, Content, Author, Date, and Category of football-related news articles.
 
 ## Installation and Requirements
