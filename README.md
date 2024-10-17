@@ -48,7 +48,11 @@ Title, Content, Author, Date, and Category of football-related news articles.
 * Python 3.x
 * Google Colab (for running the project)
 * The following libraries need to be installed:
-pip install pandas numpy scikit-learn matplotlib seaborn plotly nltk stanza spacy xgboost
+  pandas numpy
+  scikit-learn
+  matplotlib
+  nltk
+  BeautifulSoup
 
 ## Methodology
 
