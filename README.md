@@ -8,18 +8,10 @@
 3. [Installation and Requirements](#installation-and-requirements)
 4. [Methodology](#methodology)
 5. [Results](#results)
+6. [Usage](#usage)
 7. [Future Work](#limitations-and-further-work)
 8. [Contributors](#Contributors)
 
-1. 
-  
-2. Dataset Description
-3. Installation and Requirements
-4. Methodology
-5. Results
-6. Usage
-7. Limitations-and-Further-Work
-8. Contributors
 
 ## Project Overview
 
