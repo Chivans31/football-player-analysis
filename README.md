@@ -7,9 +7,11 @@
 3. [Installation and Requirements](#installation-and-requirements)
 4. [Methodology](#methodology)
 5. [Results](#results)
-6. [Usage](#usage)
-7. [Future Work](#limitations-and-further-work)
-8. [Contributors](#Contributors)
+6. [Key Findings](#key-findings)
+7. [Feature Importance](#feature-importance)
+8. [Usage](#usage)
+9. [Future Work](#limitations-and-further-work)
+10. [Contributors](#Contributors)
 
 
 ## Project Overview
