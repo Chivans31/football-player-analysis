@@ -82,7 +82,7 @@ Model Comparison: Random Forest was compared with Linear Regression, SVR, and XG
 
 Here is a visual representation of the errors from model comparison:
 
-![Model Comparison](Results/Comparison%20of%20MAE%20for%20different%20Models.PNG)
+![Model Comparison](Plots/Comparison%20of%20MAE%20for%20different%20Models.PNG)
 
 
 ## Key Findings:
