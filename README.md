@@ -79,7 +79,7 @@ Model Comparison: Random Forest was compared with Linear Regression, SVR, and XG
 | **XGBoost**               | 881,753      | 3.41 m       | 0.99       |
 
 Here is a visual representation of the errors from model comparison:
-![Model Comparison](results/Comparison_of_MAE_for_different_Models.PNG)
+![Model Comparison](Results/Comparison%20of%20MAE%20for%20different%20Models.PNG)
 
 
 ## Key Findings:
