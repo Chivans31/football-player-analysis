@@ -69,7 +69,7 @@ Model Comparison: Random Forest was compared with Linear Regression, SVR, and XG
 * **Root Mean Squared Error (RMSE):** Evaluates the error magnitude in squared units.
 * **R² Score:** Indicates the proportion of variance explained by the model.
 
-## Results
+## Evaluation
 ### Model Comparison:
 
 | Model                     | MAE          | RMSE         | R² Score   |
@@ -91,16 +91,16 @@ Here is a visual representation of the errors from model comparison:
 * **SVR** struggled with the dataset, as shown by its very low R² score.
 * **XGBoost** was a close competitor to Random Forest, with comparable performance but a slightly higher error.
 
+## Results
+![Model Comparison](Results/Comparison%20of%20MAE%20for%20different%20Models.PNG)
+
 ## Usage
 
 1. **Run the Project** on Google Colab:
 * Load your dataset into Colab.
 * Execute the notebook to preprocess the data, perform sentiment analysis, and build the models.
 
-2. **View Results:**
-* The results are stored in the results/ subfolder, including visualizations like feature importance, model predictions, and error distribution.
-
-3. **Evaluate Predictions:**
+2. **Evaluate Predictions:**
 * Use the RandomForestRegressor model to predict player values and analyze undervalued transfer targets.
 
 ## Limitations and Further Work
