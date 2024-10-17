@@ -94,6 +94,27 @@ Here is a visual representation of the errors from model comparison:
 ## Results
 ![Comparison_of_Actual_vs_Predicted_Market_Value](Plots/Comparison%20of%20Actual%20vs%20Predicted%20Marke%20Values.PNG)
 
+**Interpretation:** The visual comparison of the actual and predicted market values for a sample of players is represented with the bar plot above.
+
+**Jude Bellingham:** With the predicted and actual values being approximately 177 million and 150 million respectively, Jude Bellington is considered the most undervalued player.
+**Rodri**, **Victor Osimhen** and **Declan Rice** have predicted values that are visibly higher than their actual values, although not as high as the predicted value of the most undervalued player.
+**Paul Pogba**, **Harry Kane** and **Marion Balotelli** have predicted values (15.1 million, 110.1 million and 1.26 million respectively) which are very close to the actual market values (15 million, 110 million and 1.2 million respectively) which indicates model reliability. 
+**Kelechi Iheanacho** appears to be the least undervalued with a predicted value of 1.64 million and actual value of 1.6 million, demonstrating the model’s ability to generalise well across different players.
+
+## Feature Importance
+![Feature Importance](Plots/Feature%20Importance.PNG)
+
+Several key points emerge from these results:
+
+1. **Contract Years Remaining (43%):** With the highest importance, this feature indicates that the number of years left on a player’s contract is a critical factor in determining their market values. Higher market values are seemingly commanded by players with longer contracts and this is likely because they offer more long-term security for potential buyers. There is an alignment between this finding and real-world observations as most clubs often appear to be willing to pay more for players under longer contracts. This is mostly because they want to avoid free transfers or to secure talent for an extended period of time.
+
+2. **Age (42%):** Another dominant factor in market value prediction is the player’s age. Potential for development is often seen to be higher with younger players and this makes them more attractive in the transfer market. The importance of age is emphasised with the fact that its weight is almost as much as that of the contract length, as young players with longer contracts are particularly valuable.
+
+3. **Club Association(2%):** While there are lower importance scores for these club-related features compared to age and contract duration, they still contribute to the model’s predictions. The market value of a player can be impacted by the club he is associated with. Players from higher performance clubs like Real Madrid are often valued more due to brand association, prestige, and media exposure but these are smaller compared to intrinsic player characteristics like age and contract years. 
+
+4. **Sentiment Score (approximately 2%):** Although the importance of sentiment is relatively low, the sentiment score derived from media reports also plays a role. While the media perception and news sentiment surrounding a player can influence market value, features like age and contract length are more significant. However, in specific cases such as sudden spikes in value due to transfer rumours or exceptional media coverage, sentiment could still be considerably relevant. 
+
+
 ## Usage
 
 1. **Run the Project** on Google Colab:
