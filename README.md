@@ -47,16 +47,11 @@ Title, Content, Author, Date, and Category of football-related news articles.
 
 * Python 3.x
 * Google Colab (for running the project)
-* The following libraries need to be installed:
-  pandas numpy
-  scikit-learn
-  matplotlib
-  nltk
-  BeautifulSoup
+* The following libraries need to be installed: pandas, numpy, scikit-learn, matplotlib, nltk, re, torch
 
 ## Methodology
 
-1.**Data Preprocessing:**
+1. **Data Preprocessing:**
 * Tokenization and cleaning of news articles.
 * Feature extraction: combining player details, market value trends, and sentiment analysis 
   from news content.
